@@ -1,0 +1,28 @@
+// $Id: assignment3.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+ 
+ Template_Files {
+    Array.cpp
+    Stack.cpp
+	Array_Iterator.cpp
+  }
+  
+  Source_Files {
+	Binary_Op_Command.cpp
+	Add_Command.cpp
+	Multiply_Command.cpp
+	Subtract_Command.cpp
+	Number_Command.cpp
+	Divide_Command.cpp
+	Modulus_Command.cpp
+	Right_Parenthesis_Command.cpp
+	Stack_Exp_Command_Factory.cpp
+	Exp_Command_Factory.cpp
+	Facade.cpp
+    driver.cpp
+  }
+
+}
